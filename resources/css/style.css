@@ -1,0 +1,37 @@
+html{
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+body{
+	width: 960px;
+	height: auto;
+}
+
+header{
+	background: black;
+	width: 100%;
+	height: auto
+}
+
+.headInfo{
+	display: flex;
+	align-items: center;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+	text-align: left;
+	margin-left: 3rem;
+}
+
+h1{
+	font-size: 1rem;
+	color: white;
+	margin-left: 1rem;
+}
+
+
+.headInfo img{
+	width: auto;
+	height: 1.5rem;
+	margin-left: 0.5rem;
+}
