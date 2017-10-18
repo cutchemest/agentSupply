@@ -7,12 +7,13 @@ html{
 body{
 	width: 960px;
 	height: auto;
+	margin: 0;
 }
 
 header{
 	background: black;
 	width: 100%;
-	height: auto
+	height: auto;
 }
 
 .headInfo{
@@ -51,8 +52,38 @@ h1{
 }
 
 .banner{
-	width: 20rem;
-	height: 50%;
+	width: 24rem;
+	height: 35%;
 	background: black;
 	margin-top: 9rem;
+	margin-left: 3rem;
+	color: white;
+}
+
+.banner p{
+	padding-top: 2rem;
+	padding-left: 3rem;
+	font-size: 1rem;
+	font-weight: bold;
+	
+}
+
+.banner h2{
+	padding-top: 0.25rem;
+	padding-left: 3rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.nav{
+	background: firebrick;
+	width: 100%;
+	height: auto;
+}
+.navInfo{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	color: white;
 }
