@@ -128,5 +128,40 @@ h1{
 }
 
 .info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	margin-top: 3rem;
+	margin-bottom: 4rem;
 }
+
+.location,
+	.hours{
+	width: 35%;
+	height: auto;
+}
+
+.location h2,
+	.hours h2{
+		background: black;
+		color: white;
+		padding: 1rem 2rem;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	height: 5rem;
+	background: black;
+}
+
+.footer h2{
+	display: flex;
+	
+	
+	padding-left: 2rem;
+	color: white;
+}
+
